@@ -1,0 +1,37 @@
+#log-overview-container {
+    margin: 1em 5em;
+}
+
+/* Whole log area */
+#log-overview .background {
+    fill: #FCFFF5;
+    stroke: lightgrey;
+    stroke-width: 1px;
+}
+
+/* Whole log area */
+#log-overview .log-background {
+    fill: #FCFFF5;
+}
+
+/* Sub-area of .log-background between start and end timestamps */
+#log-overview .bar-background {
+    fill: #D1DBBD;
+}
+
+/* Bars */
+#log-overview .bar {
+    fill: #91AA9D;
+}
+
+/* Header */
+#log-overview .heading text {
+    font-weight: bold;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}

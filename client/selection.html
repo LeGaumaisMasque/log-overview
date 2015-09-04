@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+    <head lang="en">
+        <meta charset="UTF-8">
+        <title>Log OverViewer &mdash; Selection</title>
+
+        <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+        <link rel="stylesheet" href="bower_components/jstree/dist/themes/default/style.min.css" />
+    </head>
+
+    <body>
+        <div class="container">
+            <h1>Log Overview</h1>
+            <p class="lead">Select log file to analyze.</p>
+
+            <button type="button" class="btn btn-default action-btn" id="analyze-btn">Analyze</button>
+            <button type="button" class="btn btn-default action-btn" id="download-btn">Download</button>
+        </div>
+
+
+        <div style="margin: 1em 5em">
+            <div id="file-tree"></div>
+        </div>
+
+
+        <!-- Load and start -->
+
+        <script src="bower_components/jquery/dist/jquery.min.js" charset="utf-8"></script>
+        <script src="bower_components/jstree/dist/jstree.min.js" charset="utf-8"></script>
+        <script src="js/logov-selection.js" charset="utf-8"></script>
+
+        <script>
+            displayTree();
+        </script>
+    </body>
+
+</html>
